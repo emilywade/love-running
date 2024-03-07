@@ -210,7 +210,7 @@ hr {
     padding: 30px;
 }
 
-#signup-form h2 {
+#signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -219,14 +219,15 @@ hr {
     padding: 0 5px;
     height: 25px;
     width: 100%;
-    margin-bottom: 20px;
+    margin: 5px 0 20px 0;
     color: #fafafa;
-    background-color: transparent;
+    background: transparent;
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
 
 #radio-buttons {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -322,9 +323,31 @@ hr {
         align-self: flex-end;
     }
 
-    /* Gallery */
+    /* Gallery page */
     #photos {
         column-count: 3;
+    }
+
+    /* Signup page */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        position:absolute;
+        max-width: 400px;
+        left:10%;
+        top:150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color:#454b1b
     }
 
 }
