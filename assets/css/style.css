@@ -226,6 +226,12 @@ hr {
     border-radius: 2px;
 }
 
+#radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
